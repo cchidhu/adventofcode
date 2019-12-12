@@ -45,4 +45,11 @@ asteroidPositions.forEach(pos1 => {
 
 console.log(`The best location for a new monitoring station on this map at (${bestLocation.x},${bestLocation.y}) because it can detect ${bestLocationCount} asteroids`)
 
+//Part 2
 
+asteroidPositions.forEach(pos => {
+  if(pos !== bestLocation) {
+    console.log(`(${pos.x},${pos.y} - ${calcAngleDegrees(bestLocation,pos) + 90}`)
+    detectAsteriods.add(calcAngleDegrees(pos1, pos2));
+  }
+})
