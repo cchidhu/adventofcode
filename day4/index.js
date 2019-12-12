@@ -21,9 +21,7 @@ do {
           break;
         }
       }
-
     }
-
   }
   counter++;
 
